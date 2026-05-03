@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mi Salon & Cosmetics — Book Your Appointment</title>
+    <meta name="description" content="Contact Mi Salon & Cosmetics in HSR Layout, Bengaluru. Book appointments, get directions, or call us at 063625 04138. Open 7 AM – 10:30 PM daily.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- NAV -->
+    <nav class="nav" id="main-nav">
+        <div class="nav__inner">
+            <a href="index.html" class="nav__logo"><span class="nav__logo-accent">Mi</span> Salon</a>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="about.html" class="nav__link">About</a></li>
+                <li><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+                <li><a href="contact.html" class="nav__cta">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="page-hero">
+        <div class="hero__aurora"><div class="hero__aurora-orb hero__aurora-orb--1"></div><div class="hero__aurora-orb hero__aurora-orb--2"></div></div>
+        <div class="hero__grain"></div>
+        <div class="page-hero__content reveal-fade">
+            <span class="section-header__tag">Get In Touch</span>
+            <h1 class="page-hero__title">Visit The <span class="text-accent">Sanctuary</span></h1>
+            <p class="page-hero__desc">Book your appointment or reach out — we'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- CONTACT GRID -->
+    <section style="padding: 120px 0; background: var(--bg-container-low);">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- FORM -->
+                <div class="info__card reveal-slide" style="--delay: 0.1s">
+                    <h3 class="info__card-title">Book an <span class="text-accent">Appointment</span></h3>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="you@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option>Haircut & Styling</option>
+                                <option>Bridal Services</option>
+                                <option>Facials</option>
+                                <option>Skin Care & Acne</option>
+                                <option>Waxing & Threading</option>
+                                <option>Make-Up</option>
+                                <option>Manicure & Pedicure</option>
+                                <option>Massage</option>
+                                <option>Laser Hair Removal</option>
+                                <option>Eyelash Extensions</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your appointment preferences..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Send Inquiry</button>
+                    </form>
+                </div>
+                <!-- INFO SIDEBAR -->
+                <div class="contact-sidebar">
+                    <div class="info__card reveal-slide" style="--delay: 0.25s; margin-bottom: 24px;">
+                        <h3 class="info__card-title">Contact <span class="text-accent">Info</span></h3>
+                        <div class="info__address"><div class="info__address-icon">📍</div><p>Katha No.111/1, Hosur Rd, Near Cycle Word, Below FB Cakes, Rajiv Gandhi Nagar, HSR, Bommanahalli, Bengaluru, Karnataka 560068</p></div>
+                        <div class="info__phone"><div class="info__phone-icon">📞</div><a href="tel:06362504138">063625 04138</a></div>
+                        <a href="https://maps.google.com/?q=Mi+Salon+HSR+Layout+Bengaluru" target="_blank" class="btn btn--primary btn--full" style="margin-top: 12px;">Get Directions</a>
+                    </div>
+                    <div class="info__card reveal-slide" style="--delay: 0.4s;">
+                        <h3 class="info__card-title">Opening <span class="text-accent">Hours</span></h3>
+                        <div class="hours-table">
+                            <div class="hours-row"><span>Mon – Sat</span><span>7 AM – 10:30 PM</span></div>
+                            <div class="hours-row hours-row--highlight"><span>Sunday</span><span>7 AM – 10 PM</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAP -->
+    <section class="reveal-fade" style="padding: 0 0 0;">
+        <div style="width: 100%; height: 400px; background: var(--bg-container); position: relative; overflow: hidden;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.0!2d77.63!3d12.91!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU0JzM2LjAiTiA3N8KwMzcnNDguMCJF!5e0!3m2!1sen!2sin!4v1" width="100%" height="100%" style="border:0; filter: brightness(0.7) contrast(1.1) saturate(0.5); opacity: 0.8;" allowfullscreen="" loading="lazy"></iframe>
+            <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, var(--bg-container-low), transparent 20%, transparent 80%, var(--bg) 100%); pointer-events: none;"></div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="index.html" class="footer__logo"><span class="text-accent">Mi</span> Salon</a>
+                    <p class="footer__tagline">HSR Layout's Biggest Salon & Cosmetics</p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg></a>
+                        <a href="#" class="footer__social-link" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+                        <a href="tel:06362504138" class="footer__social-link" aria-label="Phone"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer__links"><h4 class="footer__links-title">Quick Links</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+                <div class="footer__links"><h4 class="footer__links-title">Services</h4><a href="index.html#services">Haircut & Styling</a><a href="index.html#services">Bridal Services</a><a href="index.html#services">Facials</a></div>
+                <div class="footer__contact"><h4 class="footer__links-title">Contact</h4><p>Hosur Rd, HSR Layout<br>Bengaluru 560068</p><a href="tel:06362504138">063625 04138</a></div>
+            </div>
+            <div class="footer__bottom"><p>© 2026 Mi Salon & Cosmetics. All rights reserved.</p></div>
+        </div>
+    </footer>
+
+    <style>
+        .page-hero { position: relative; min-height: 50vh; display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 140px 24px 80px; text-align: center; }
+        .page-hero__content { position: relative; z-index: 2; }
+        .page-hero__title { font-family: var(--font-display); font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 700; letter-spacing: -0.02em; margin: 12px 0 16px; }
+        .page-hero__desc { font-size: 1.05rem; color: var(--on-surface-variant); font-weight: 300; max-width: 550px; margin: 0 auto; }
+        .contact-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; }
+        .contact-sidebar { display: flex; flex-direction: column; }
+        .contact-form { display: flex; flex-direction: column; gap: 20px; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        .form-group { display: flex; flex-direction: column; gap: 6px; }
+        .form-group label { font-size: 0.8rem; font-weight: 500; color: var(--on-surface-variant); letter-spacing: 0.04em; text-transform: uppercase; }
+        .form-group input, .form-group select, .form-group textarea {
+            background: var(--bg-container); border: 1px solid rgba(80,69,59,0.15); border-radius: 8px;
+            padding: 14px 16px; color: var(--on-surface); font-family: var(--font-body); font-size: 0.9rem;
+            transition: border-color 0.3s, box-shadow 0.3s; outline: none; width: 100%;
+        }
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+            border-color: var(--primary); box-shadow: 0 0 0 3px rgba(242,192,141,0.1);
+        }
+        .form-group select { cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%239c8e82' d='M6 8L1 3h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 16px center; }
+        .form-group select option { background: var(--bg-container-high); color: var(--on-surface); }
+        .form-group textarea { resize: vertical; min-height: 100px; }
+        @media (max-width: 768px) {
+            .contact-grid { grid-template-columns: 1fr; }
+            .form-row { grid-template-columns: 1fr; }
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>

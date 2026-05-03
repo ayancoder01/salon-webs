@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game Of Tools | Premium Unisex Salon HSR Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Using Bebas Neue for massive headers, Playfair for elegant italics, Inter for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Global Noise Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo hover-target">
+                <div class="logo-mark"><i class="fas fa-cut"></i></div>
+                <div class="logo-text">
+                    <span class="game-text">THE GAME</span>
+                    <span class="tools-text text-accent">OF TOOLS</span>
+                </div>
+            </a>
+            <nav class="nav-links">
+                <a href="#about" class="hover-target">About</a>
+                <a href="#services" class="hover-target">Services</a>
+                <a href="#gallery" class="hover-target">Lookbook</a>
+                <a href="#contact" class="hover-target">Contact</a>
+            </nav>
+            <a href="https://wa.me/9106397749059" class="btn btn-outline hover-target">Book Session</a>
+        </div>
+    </header>
+
+    <!-- Editorial Hero Section -->
+    <section class="hero" id="home">
+        <!-- Huge Background Text -->
+        <div class="hero-bg-text marquee-wrap">
+            <div class="marquee-inner">
+                <span>THE GAME OF TOOLS • UNISEX SALON • HSR LAYOUT • </span>
+                <span>THE GAME OF TOOLS • UNISEX SALON • HSR LAYOUT • </span>
+            </div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-left reveal-up">
+                <p class="hero-subtext">EST. IN HSR LAYOUT</p>
+                <h1 class="hero-title">
+                    <span class="outline-text">UNLEASH</span><br>
+                    YOUR <span class="text-italic">Bold</span>
+                </h1>
+                <p class="hero-desc">We blur the lines between high-end beauty lounges and urban barbershops. Precision, culture, and premium styling.</p>
+                <a href="#services" class="btn btn-primary hover-target mt-2">Discover Services</a>
+            </div>
+            
+            <div class="hero-right reveal-left delay-1">
+                <!-- Using the image in an arched clip-path to make it look intentional and hide resolution -->
+                <div class="hero-image-wrapper">
+                    <img src="asset/interior1.webp" alt="Studio Interior" class="hero-img duotone-filter">
+                    <div class="image-badge hover-target"><i class="fas fa-play"></i> Play Vibe</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Editorial About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-col reveal-up">
+                    <div class="about-img-frame">
+                        <img src="asset/haircut1.webp" alt="Exterior" class="duotone-filter">
+                    </div>
+                    <div class="about-img-frame offset-frame">
+                        <img src="asset/haircut2.jpg" alt="Detail" class="duotone-filter">
+                    </div>
+                </div>
+                
+                <div class="about-text-col reveal-up delay-1">
+                    <h2 class="section-title">THE ART OF <br><span class="text-italic text-accent">Grooming</span></h2>
+                    <p class="lead-text">4.7 Stars based on 304 reviews. A reputation built on flawless execution.</p>
+                    <p class="body-text">Welcome to a space where your aesthetic is taken seriously. From sharp skin fades and vivid balayage to intricate dreadlocks and bespoke bridal makeup, our artists operate at the highest level of their craft.</p>
+                    <p class="body-text">"I felt very good, very pleasant staff service and beautiful magic of work." — <em>Client Review</em></p>
+                    
+                    <a href="https://wa.me/9106397749059" class="link-arrow hover-target mt-2">Consult an Artist <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Minimalist Services List -->
+    <section class="services section" id="services">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title outline-text text-center">OUR EXPERTISE</h2>
+            </div>
+
+            <div class="services-list-container">
+                <!-- Service Item 1 -->
+                <div class="service-row reveal-up hover-target">
+                    <div class="service-number">01</div>
+                    <div class="service-info">
+                        <h3 class="service-name">Hair <span class="text-italic">Styling & Cut</span></h3>
+                        <p class="service-desc">Precision fades, styling, trims, and children's cuts.</p>
+                    </div>
+                    <div class="service-action"><i class="fas fa-plus"></i></div>
+                </div>
+                
+                <!-- Service Item 2 -->
+                <div class="service-row reveal-up hover-target">
+                    <div class="service-number">02</div>
+                    <div class="service-info">
+                        <h3 class="service-name">Color <span class="text-italic">& Treatments</span></h3>
+                        <p class="service-desc">Balayage, Ombre, Highlights, Keratin, and Hair Straightening.</p>
+                    </div>
+                    <div class="service-action"><i class="fas fa-plus"></i></div>
+                </div>
+
+                <!-- Service Item 3 -->
+                <div class="service-row reveal-up hover-target">
+                    <div class="service-number">03</div>
+                    <div class="service-info">
+                        <h3 class="service-name">Urban <span class="text-italic">Specialties</span></h3>
+                        <p class="service-desc">Dreadlocks, Box Braids, Twist Braids, and Hair Extensions.</p>
+                    </div>
+                    <div class="service-action"><i class="fas fa-plus"></i></div>
+                </div>
+
+                <!-- Service Item 4 -->
+                <div class="service-row reveal-up hover-target">
+                    <div class="service-number">04</div>
+                    <div class="service-info">
+                        <h3 class="service-name">Beauty <span class="text-italic">& Bridal</span></h3>
+                        <p class="service-desc">Bespoke Makeup, Bridal Services, Waxing, and Nail Treatments.</p>
+                    </div>
+                    <div class="service-action"><i class="fas fa-plus"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lookbook Section -->
+    <section class="lookbook section" id="gallery">
+        <div class="container">
+            <div class="lookbook-header reveal-up">
+                <h2 class="section-title">THE <span class="text-italic text-accent">Lookbook</span></h2>
+                <a href="#" class="link-arrow hover-target">View Instagram <i class="fab fa-instagram"></i></a>
+            </div>
+            
+            <div class="lookbook-grid">
+                <div class="lookbook-item large reveal-up hover-target">
+                    <img src="asset/hairwash.webp" alt="Washing Hair" class="duotone-filter">
+                    <div class="lookbook-caption">PREMIUM CARE</div>
+                </div>
+                <div class="lookbook-item reveal-up delay-1 hover-target">
+                    <img src="asset/exterior2.webp" alt="Exterior Details" class="duotone-filter">
+                    <div class="lookbook-caption">STUDIO VIBE</div>
+                </div>
+                <div class="lookbook-item reveal-up delay-2 hover-target">
+                    <img src="asset/space.webp" alt="Interior Details" class="duotone-filter">
+                    <div class="lookbook-caption">THE SPACE</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brutalist Footer -->
+    <footer class="footer section" id="contact">
+        <div class="container">
+            <div class="footer-top">
+                <h2 class="huge-footer-text reveal-up">LET'S TALK</h2>
+                <a href="https://wa.me/9106397749059" class="btn btn-primary hover-target footer-btn">BOOK NOW</a>
+            </div>
+            
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>VISIT</h4>
+                    <p>1st Floor, 256/A, 5th Main Rd,<br>above ADCO, Sector 6,<br>HSR Layout, Bengaluru 560102</p>
+                </div>
+                <div class="footer-col">
+                    <h4>CONTACT</h4>
+                    <p>063977 49059</p>
+                    <p>Open Daily: 10:30 AM – 11:00 PM</p>
+                </div>
+                <div class="footer-col">
+                    <h4>SOCIALS</h4>
+                    <div class="social-flex">
+                        <a href="#" class="hover-target">INSTAGRAM</a>
+                        <a href="#" class="hover-target">FACEBOOK</a>
+                        <a href="#" class="hover-target">GOOGLE MAPS</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 THE GAME OF TOOLS.</p>
+                <p>ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
