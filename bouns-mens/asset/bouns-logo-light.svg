@@ -1,0 +1,7 @@
+<svg width="296" height="74" viewBox="0 0 296 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="7" width="60" height="60" rx="18" fill="#F8F1E5"/>
+  <path d="M18 20H37.5C45.3 20 50.5 24.5 50.5 31.2C50.5 35.8 47.8 39.3 43.3 40.8C48.7 42.2 52 46 52 51.9C52 59.2 46.3 64 37.8 64H18V20ZM36.2 37.3C40.4 37.3 43 35.2 43 31.8C43 28.4 40.4 26.5 36.2 26.5H25.8V37.3H36.2ZM37 57.5C41.9 57.5 44.8 55.1 44.8 51.1C44.8 47.2 41.9 44.8 37 44.8H25.8V57.5H37Z" fill="#1F3A2D"/>
+  <path d="M9 52L52 9" stroke="#BF5A36" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+  <path d="M14 62L57 19" stroke="#F4B084" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <text x="80" y="48" fill="#F8F1E5" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" letter-spacing="2">BOUNS</text>
+</svg>
