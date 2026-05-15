@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scissor & Mirror Unisex Salon | HSR Layout Bangalore</title>
+    
+    <!-- SEO and Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%231C1B1A'/><text y='50%' x='50%' dominant-baseline='middle' text-anchor='middle' font-family='serif' font-size='56' fill='%23EAE6DE'>S</text></svg>">
+    <meta name="description" content="Scissor & Mirror Unisex Salon in HSR Layout, Bangalore offering haircuts, keratin treatments, bridal services, massages, pedicure, waxing, and more.">
+    
+    <!-- Fonts: Cinematic Serif + Clean Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Minimal Nav -->
+    <nav class="nav-bespoke">
+        <div class="nav-brand">SCISSOR & MIRROR</div>
+        <div class="nav-links">
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="https://wa.me/919741518863" class="nav-btn">Book Now</a>
+    </nav>
+
+    <main class="main-content">
+        
+        <!-- Pinned Split Hero -->
+        <section class="hero-split">
+            <div class="hero-sticky-text">
+                <p class="hero-kicker">HSR Layout / Bengaluru</p>
+                <h1 class="hero-title">
+                    <span class="line">Scissor</span>
+                    <span class="line italic">&amp; Mirror</span>
+                    <span class="line">Salon.</span>
+                </h1>
+                <p class="hero-desc">A trusted unisex salon in HSR Layout, Bangalore for haircuts, keratin treatments, bridal services, grooming, massages, pedicure, waxing, and hairstyling.</p>
+                <div class="scroll-indicator">
+                    <span>Scroll</span>
+                    <div class="line-down"></div>
+                </div>
+            </div>
+            
+            <div class="hero-scroll-images">
+                <div class="hero-img-wrapper">
+                    <img src="asset/interior.webp" alt="Salon interior" class="parallax-img">
+                </div>
+                <div class="hero-img-wrapper offset-right">
+                    <img src="asset/hair-cut.webp" alt="Haircut service" class="parallax-img">
+                </div>
+                <div class="hero-img-wrapper large">
+                    <img src="asset/hair-cut-2.webp" alt="Salon exterior" class="parallax-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Horizontal Scrolling Marquee Text -->
+        <section class="giant-marquee">
+            <div class="marquee-track">
+                <h2>HAIRCUTS - KERATIN - BRIDAL - MASSAGE - PEDICURE - WAXING - </h2>
+                <h2>HAIRCUTS - KERATIN - BRIDAL - MASSAGE - PEDICURE - WAXING - </h2>
+            </div>
+        </section>
+
+        <!-- Interactive Services List -->
+        <section id="services" class="services-interactive">
+            <!-- Dynamic Background Image that changes on hover -->
+            <div class="services-bg" id="service-bg"></div>
+            
+            <div class="services-content">
+                <div class="section-title text-light">
+                    <h3>Services</h3>
+                </div>
+                
+                <ul class="service-accordion" id="service-list">
+                    <li data-img="asset/hair-cut.webp">
+                        <div class="service-num">01</div>
+                        <h2 class="service-name">Haircut</h2>
+                        <div class="service-detail">Precision cuts and everyday grooming for a fresh, polished look.</div>
+                    </li>
+                    <li data-img="asset/hair-cut-2.webp">
+                        <div class="service-num">02</div>
+                        <h2 class="service-name italic">Hair Colouring</h2>
+                        <div class="service-detail">Colour refresh and transformation services tailored to your preferred style.</div>
+                    </li>
+                    <li data-img="asset/hair-cut-3.webp">
+                        <div class="service-num">03</div>
+                        <h2 class="service-name">Keratin Treatments</h2>
+                        <div class="service-detail">Smoothening and repair-focused treatment for softer, more manageable hair.</div>
+                    </li>
+                    <li data-img="asset/interior.webp">
+                        <div class="service-num">04</div>
+                        <h2 class="service-name">Bridal &amp; Grooming</h2>
+                        <div class="service-detail">Bridal services, beard trim, waxing, pedicure, massages, and hairstyling under one roof.</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Scattered Masonry Gallery -->
+        <section id="gallery" class="scattered-gallery">
+            <div class="gallery-header">
+                <h3>Guest Reviews</h3>
+                <p>Rated 4.6/5 from 486 reviews.</p>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="g-col g-col-1 parallax-slow">
+                    <img src="asset/interior.webp" alt="Salon interior seating">
+                    <img src="asset/hair-cut-2.webp" alt="Hair service detail">
+                </div>
+                <div class="g-col g-col-2 parallax-fast">
+                    <img src="asset/exterior.webp" alt="Salon exterior view">
+                    <div class="gallery-text-card">
+                        <h4>Very nice place<br><i>for a haircut</i></h4>
+                    </div>
+                    <img src="asset/hair-cut-3.webp" alt="Styling result">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Reveal Sticky Footer -->
+    <footer id="contact" class="footer-reveal">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-massive-text">
+                    <h2>Visit <br>The <i>Salon</i></h2>
+                </div>
+                <div class="footer-info">
+                    <div class="f-block">
+                        <h4>Location</h4>
+                        <p>1st Floor, 2608, 27th Main Rd,<br>above Hush Puppies, opposite Domino's Pizza,<br>1st Sector, HSR Layout, Bengaluru 560102</p>
+                    </div>
+                    <div class="f-block">
+                        <h4>Contact</h4>
+                        <p>+91 97415 18863<br>Open daily: 9:00 AM - 9:00 PM</p>
+                    </div>
+                    <div class="f-block">
+                        <h4>Highlights</h4>
+                        <p>Friendly staff, affordable pricing,<br>and a pleasant ambience guests love.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <a href="https://wa.me/919741518863" class="btn-massive">BOOK APPOINTMENT &rarr;</a>
+                <div class="f-copyright">&copy; 2026 Scissor &amp; Mirror Unisex Salon. All Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
